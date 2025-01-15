@@ -1,6 +1,6 @@
 {
   "name": "@mjt-services/asr-service-2025",
-  "version": "2025.1.14-1122",
+  "version": "2025.1.15-0945",
   "sideEffects": false,
   "description": "asr service",
   "main": "./dist/index.js",
