@@ -28,7 +28,7 @@ export const resolveAsrBackendUrl = async (env: Env) => {
   if (isUndefined(port)) {
     throw new Error("No port found");
   }
-  _backendUrl = `http://tunnel: ${port}`;
+  _backendUrl = `http://tunnel:${port}`;
   console.log("_backendUrl", _backendUrl);
   return _backendUrl;
 };
